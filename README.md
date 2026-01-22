@@ -51,20 +51,30 @@ The model learns patterns, trends, and seasonality from past data to generate ac
 | Product Name    | Name of the product |
 | Sales           | Sales value of the transaction |
 
-•	 Loading the Dataset
-   The sales dataset was loaded into the Jupyter Notebook using the Pandas library for further analysis.
-•	Checking Dataset Structure
-  The shape of the dataset, column names, and data types were examined to understand the structure of the data.
-•	  Handling Missing Values
-    The dataset was checked for missing or null values. Any missing values were handled appropriately to maintain data consistency.
-•	 Removing Duplicate Records
-      Duplicate rows were identified and removed to prevent biased results and incorrect predictions.
-•	 Data Type Conversion
-      Time-related attributes such as year, month, day, and weekday were converted into numerical format to make them suitable for      analysis and machine learning models.
-•	Feature Selection
-    Relevant features such as sales, region, segment, and time-based attributes were selected, while unnecessary columns were excluded       to improve model efficiency.
-•	  Outlier Analysis
-     Extreme sales values were analyzed using basic statistical methods and visual inspection to reduce their impact on the model
+## 🧹 Data Preprocessing
+
+The following preprocessing steps were applied to prepare the data for analysis and modeling:
+
+- **Loading the Dataset**  
+  The sales dataset was loaded into the Jupyter Notebook using the **Pandas** library.
+
+- **Checking Dataset Structure**  
+  Dataset shape, column names, and data types were examined to understand the structure of the data.
+
+- **Handling Missing Values**  
+  The dataset was checked for missing or null values, and appropriate handling methods were applied to ensure data consistency.
+
+- **Removing Duplicate Records**  
+  Duplicate rows were identified and removed to avoid biased analysis and incorrect predictions.
+ **Data Type Conversion**  
+  Time-related attributes such as **year, month, day, and weekday** were extracted and converted into numerical format for machine learning suitability.
+
+- **Feature Selection**  
+  Relevant features such as **sales, region, segment, and time-based attributes** were selected, while unnecessary columns were removed to improve model efficiency.
+
+- **Outlier Analysis**  
+  Extreme sales values were analyzed using statistical methods and visual inspection to minimize their impact on the model.
+
 
 ## 🔄 Project Workflow
 1. Data Collection  
