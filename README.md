@@ -117,7 +117,7 @@ R² Score	  0.88
 - Add real-time sales data integration
 - Improve accuracy using hyperparameter tuning
 ## 👩‍💻 Author
-**Keerthi**  
+**Keerthika**  
 Aspiring Data Scientist | Machine Learning Enthusiast  
 ## 📌 Note
 This project is created for learning and academic purposes and can be extended for real-world business applications.
