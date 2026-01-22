@@ -18,32 +18,39 @@ The model learns patterns, trends, and seasonality from past data to generate ac
   - Reduces overfitting by combining multiple decision trees
   - Performs well on real-world structured data
   - Provides better accuracy than basic regression models
+
 ## 🗂️ Dataset Description
-Time Period:
-        The dataset contains historical sales transactions recorded between 2016 and 2017.
-Dataset Size:
-         Approximately 9,900+ rows × 18 columns.
-Dataset Attributes
-Column Name	Description
-Row ID           :	Unique identifier for each record
-Order ID         :	Unique identifier for each order
-Order Date       :	Date on which the order was placed
-Ship Date        :	Date on which the order was shipped
-Ship Mode        :	Shipping mode used
-Customer ID      :	Unique customer identifier
-Customer Name    :	Name of the customer
-Segment          :	Customer segment (Consumer, Corporate, etc.)
-Country          :	Country of sale
-City             :	City of sale
-State            :	State of sale
-Postal Code      :	      Postal code of the location
-Region	         :       Sales region
-Product ID	     :       Unique product identifier
-Category	       :      Product category
-Sub-Category	   :    Product sub-category
-Product Name	   :    Name of the product
-Sales	           :   Sales value of the transaction
-##Data preprocessing steps include:
+
+### 📅 Time Period
+- The dataset contains historical sales transactions recorded between **2016 and 2017**.
+
+### 📊 Dataset Size
+- Approximately **9,900+ rows × 18 columns**
+
+### 🧾 Dataset Attributes
+
+| Column Name     | Description |
+|-----------------|-------------|
+| Row ID          | Unique identifier for each record |
+| Order ID        | Unique identifier for each order |
+| Order Date      | Date on which the order was placed |
+| Ship Date       | Date on which the order was shipped |
+| Ship Mode       | Shipping mode used |
+| Customer ID     | Unique customer identifier |
+| Customer Name   | Name of the customer |
+| Customer Name   | Name of the customer |
+| Segment         | Customer segment (Consumer, Corporate, etc.) |
+| Country         | Country of sale |
+| City            | City of sale |
+| State           | State of sale |
+| Postal Code     | Postal code of the location |
+| Region          | Sales region |
+| Product ID      | Unique product identifier |
+| Category        | Product category |
+| Sub-Category    | Product sub-category |
+| Product Name    | Name of the product |
+| Sales           | Sales value of the transaction |
+
 •	 Loading the Dataset
    The sales dataset was loaded into the Jupyter Notebook using the Pandas library for further analysis.
 •	Checking Dataset Structure
