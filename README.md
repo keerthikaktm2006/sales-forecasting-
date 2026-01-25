@@ -107,9 +107,8 @@ Metric	Random Forest Model
 MAE	0.84
 RMSE	1.03
 R² Score	  0.88
-##DEPLOYMENT
+## 🚀 Deployment
 Deployment Method
-
 • Streamlit framework was used to deploy the sales prediction model.
 • The trained Random Forest Regressor model is integrated into a Streamlit web application.
 • The interface allows users to enter a specific date (Year, Month, Day) and predict tomorrow’s sales interactively.
