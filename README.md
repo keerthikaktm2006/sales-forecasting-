@@ -113,7 +113,7 @@ Deployment Method
 - The trained Random Forest Regressor model is integrated into a Streamlit web application.
 - The interface allows users to enter a specific date (Year, Month, Day) and predict tomorrow’s sales interactively.
 - The application also visualizes historical sales trends to help users understand past patterns.
-Public / Local Access
+-**Public / Local Access**
 - The application is deployed locally and accessed through the browser using:
 http://localhost:8501
 ## 🚀 Results
